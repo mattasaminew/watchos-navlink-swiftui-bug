@@ -9,8 +9,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        NavigationView() {
+            TabView {
+                NavigationLink(destination: {
+                    Text("Hello, world 1")
+                        .navigationTitle("New Page 1")
+                }, label: {
+                    Text("Go to page 1")
+                })
+                
+                NavigationLink(destination: {
+                    Text("Hello, world 2")
+                        .navigationTitle("New Page 2")
+                }, label: {
+                    Text("Go to page 2")
+                })
+                
+                NavigationLink(destination: {
+                    Text("Hello, world 3")
+                        .navigationTitle("New Page 3")
+                }, label: {
+                    Text("Go to page 3")
+                })
+            }
+            .navigationTitle("Home")
+        }
+        .navigationViewStyle(.stack)
     }
 }
 
