@@ -15,6 +15,7 @@
 		4F8045F4279FAAC5005C5408 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8045F3279FAAC5005C5408 /* ComplicationController.swift */; };
 		4F8045F6279FAAC6005C5408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8045F5279FAAC6005C5408 /* Assets.xcassets */; };
 		4F8045F9279FAAC6005C5408 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8045F8279FAAC6005C5408 /* Preview Assets.xcassets */; };
+		4F80460A27A09969005C5408 /* Workaround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F80460927A09969005C5408 /* Workaround.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		4F8045F8279FAAC6005C5408 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F8045FA279FAAC6005C5408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F804608279FB4B0005C5408 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4F80460927A09969005C5408 /* Workaround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workaround.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				4F8045EF279FAAC5005C5408 /* ContentView.swift */,
 				4F8045F1279FAAC5005C5408 /* watchOS_NavLink_SwiftUI_BugApp.swift */,
 				4F8045F3279FAAC5005C5408 /* ComplicationController.swift */,
+				4F80460927A09969005C5408 /* Workaround.swift */,
 				4F8045F5279FAAC6005C5408 /* Assets.xcassets */,
 				4F8045FA279FAAC6005C5408 /* Info.plist */,
 				4F8045F7279FAAC6005C5408 /* Preview Content */,
@@ -263,6 +266,7 @@
 				4F8045F2279FAAC5005C5408 /* watchOS_NavLink_SwiftUI_BugApp.swift in Sources */,
 				4F8045F0279FAAC5005C5408 /* ContentView.swift in Sources */,
 				4F8045F4279FAAC5005C5408 /* ComplicationController.swift in Sources */,
+				4F80460A27A09969005C5408 /* Workaround.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
